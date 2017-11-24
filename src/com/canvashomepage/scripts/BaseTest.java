@@ -52,8 +52,8 @@ public void preCondition()
 	String browser=Generic.getConfigData("BROWSER");
 	if(browser.equals("GC"))
 	{
-		//System.setProperty("webdriver.chrome.driver", "./exe/chromedriver");
-		System.setProperty("webdriver.chrome.driver", "./exe/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./exe/chromedriver");
+//		System.setProperty("webdriver.chrome.driver", "./exe/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 
 		Map<String, Object> prefs = new HashMap<String, Object>();
