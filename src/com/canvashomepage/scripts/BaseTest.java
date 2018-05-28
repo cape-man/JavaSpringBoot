@@ -107,7 +107,7 @@ public void openExcel()
 	workbook=new HSSFWorkbook();
 	 sheet = workbook.createSheet("Result");
 	testresult = new LinkedHashMap<String, Object[]>();
-	testresult.put("1",new Object[]{"Test Case ID","Test Case Name","Test Case Description","Status","Timestamp","Priority","Module","Environment","Version","Duration","Browser","Operating System","Tester"});
+	testresult.put("1",new Object[]{"Test Case ID","Test Case Name","Test Case Description","Status","Timestamp","Priority","Module","Environment","Version","Duration","Browser","Operating System","Tester","Build Number"});
 }
 
 @AfterTest

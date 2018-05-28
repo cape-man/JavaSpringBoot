@@ -8,11 +8,13 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.canvashomepage.scripts.BaseTest;
+import com.library.Generic;
 
 public class DisplayHomePage1 extends BaseTest
 {
 	String status="N.A";
 	long starttime = (new Date()).getTime();
+	String buildnumber = Generic.getConfigData("BuildNumber");
 @Test
 public void testDisplayHomePage()
 {
@@ -39,7 +41,7 @@ public void testDisplayHomePage()
 	}
 	long endtime = (new Date()).getTime();
 	long Duration = endtime-starttime;
-	Object[] testdetails=new Object[]{"TD7_JavaPetApplication","Display HomePage-1","User should be able to view HomePage",status,(new Date()).getTime(),"2","HomePage Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+	Object[] testdetails=new Object[]{"TD7_JavaPetApplication","Display HomePage-1","User should be able to view HomePage",status,(new Date()).getTime(),"2","HomePage Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 	testresult.put("8", testdetails);
 	}
 	catch(NoSuchElementException e)
@@ -51,7 +53,7 @@ public void testDisplayHomePage()
 		Reporter.log("**************************************************");
 		long endtime = (new Date()).getTime();
 		long Duration = endtime-starttime;
-		Object[] testdetails=new Object[]{"TD7_JavaPetApplication","Display HomePage-1","User should be able to view HomePage",status,(new Date()).getTime(),"2","HomePage Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+		Object[] testdetails=new Object[]{"TD7_JavaPetApplication","Display HomePage-1","User should be able to view HomePage",status,(new Date()).getTime(),"2","HomePage Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 		testresult.put("8", testdetails);
 	}
 }

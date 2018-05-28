@@ -8,11 +8,13 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.canvashomepage.scripts.BaseTest;
+import com.library.Generic;
 
 public class DisplayVeterenarians1 extends BaseTest
 {
 	String status="N.A";
 	long starttime = (new Date()).getTime();
+	String buildnumber = Generic.getConfigData("BuildNumber");
 @Test
 public void testDisplayVeterenarians()
 {
@@ -40,7 +42,7 @@ public void testDisplayVeterenarians()
 	}
 	long endtime = (new Date()).getTime();
 	long Duration = endtime-starttime;
-	Object testDetails []	= new Object[]{"TD6_JavaPetApplication","Display Veterinarians-1","User should be able to view Vets",status,(new Date()).getTime(),"2","Display Veterinarians Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+	Object testDetails []	= new Object[]{"TD6_JavaPetApplication","Display Veterinarians-1","User should be able to view Vets",status,(new Date()).getTime(),"2","Display Veterinarians Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 	testresult.put("7",testDetails);
 	}
 	catch(NoSuchElementException e)
@@ -52,7 +54,7 @@ public void testDisplayVeterenarians()
 		Reporter.log("**************************************************");
 		long endtime = (new Date()).getTime();
 		long Duration = endtime-starttime;
-		Object testDetails []	= new Object[]{"TD6_JavaPetApplication","Display Veterinarians-1","User should be able to view Vets",status,(new Date()).getTime(),"2","Display Veterinarians Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+		Object testDetails []	= new Object[]{"TD6_JavaPetApplication","Display Veterinarians-1","User should be able to view Vets",status,(new Date()).getTime(),"2","Display Veterinarians Module-1","SIT","1.4.0",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 		testresult.put("7",testDetails);
 	}
 }

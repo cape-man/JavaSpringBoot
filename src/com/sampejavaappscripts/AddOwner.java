@@ -7,6 +7,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.canvashomepage.scripts.BaseTest;
+import com.library.Generic;
 
 public class AddOwner extends BaseTest
 {
@@ -14,6 +15,9 @@ public class AddOwner extends BaseTest
 public void testAddOwner() throws InterruptedException
 {
 	long starttime = (new Date()).getTime();
+	String buildnumber = Generic.getConfigData("BuildNumber");
+	
+	
 	driver.findElement(By.xpath("//span[text()='Find owners']")).click();
 	System.out.println("clicked on find owners");
 	Reporter.log("clicked on find owners");
@@ -58,7 +62,7 @@ String status = "N.A";
 	}
 	long endtime = (new Date()).getTime();
 	long Duration = endtime-starttime;
-	Object testDetails []	= new Object[]{"TD1_JavaPetApplication","Add Owner","User should be able to add owner",status,(new Date()).getTime(),"1","Add Owner Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+	Object testDetails []	= new Object[]{"TD1_JavaPetApplication","Add Owner","User should be able to add owner",status,(new Date()).getTime(),"1","Add Owner Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 	testresult.put("2",testDetails);
 }
 }

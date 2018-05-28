@@ -8,11 +8,13 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.canvashomepage.scripts.BaseTest;
+import com.library.Generic;
 
 public class DisplayErrorPage extends BaseTest
 {
 	String status="N.A";
 	long starttime = (new Date()).getTime();
+	String buildnumber = Generic.getConfigData("BuildNumber");
 @Test
 public void testDisplayErrorPage()
 {
@@ -39,7 +41,7 @@ public void testDisplayErrorPage()
 	}
 	long endtime = (new Date()).getTime();
 	long Duration = endtime-starttime;
-	Object[] testdetails=new Object[]{"TD4_JavaPetApplication","Display ErrorPage","User should be able to view ErrorPage",status,(new Date()).getTime(),"1","ErrorPage Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+	Object[] testdetails=new Object[]{"TD4_JavaPetApplication","Display ErrorPage","User should be able to view ErrorPage",status,(new Date()).getTime(),"1","ErrorPage Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 	testresult.put("5", testdetails);
 	}
 	catch(NoSuchElementException e)
@@ -51,7 +53,7 @@ public void testDisplayErrorPage()
 		Reporter.log("**************************************************");
 		long endtime = (new Date()).getTime();
 		long Duration = endtime-starttime;
-		Object[] testdetails=new Object[]{"TD4_JavaPetApplication","Display ErrorPage","User should be able to view ErrorPage",status,(new Date()).getTime(),"1","ErrorPage Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli"};
+		Object[] testdetails=new Object[]{"TD4_JavaPetApplication","Display ErrorPage","User should be able to view ErrorPage",status,(new Date()).getTime(),"1","ErrorPage Module","Production","1.3",Duration,"Google Chrome","Windows 10","SriHarsha Gadepalli",buildnumber};
 		testresult.put("5", testdetails);
 	}
 }
