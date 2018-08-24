@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="48" total="61" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Chrome Browser is opened]]>
@@ -8,181 +8,10 @@
       <![CDATA[url is opened]]>
     </line>
     <line>
-      <![CDATA[clicked on find owners]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner]]>
-    </line>
-    <line>
-      <![CDATA[entered first name]]>
-    </line>
-    <line>
-      <![CDATA[entered last name]]>
-    </line>
-    <line>
-      <![CDATA[entered address]]>
-    </line>
-    <line>
-      <![CDATA[entered city]]>
-    </line>
-    <line>
-      <![CDATA[entered telephone number]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner submit button]]>
-    </line>
-    <line>
-      <![CDATA[owner is added successfully]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
       <![CDATA[clicked on veterinarians link]]>
     </line>
     <line>
-      <![CDATA[Vets is displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on home page link]]>
-    </line>
-    <line>
-      <![CDATA[welcome is not displayed in homepage]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on error page link]]>
-    </line>
-    <line>
-      <![CDATA[something happened is not displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on find owners]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner]]>
-    </line>
-    <line>
-      <![CDATA[entered first name]]>
-    </line>
-    <line>
-      <![CDATA[entered last name]]>
-    </line>
-    <line>
-      <![CDATA[entered address]]>
-    </line>
-    <line>
-      <![CDATA[entered city]]>
-    </line>
-    <line>
-      <![CDATA[entered telephone number]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner submit button]]>
-    </line>
-    <line>
-      <![CDATA[owner is added successfully]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on veterinarians link]]>
-    </line>
-    <line>
-      <![CDATA[Vets is displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on home page link]]>
-    </line>
-    <line>
-      <![CDATA[welcome is not displayed in homepage]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on error page link]]>
-    </line>
-    <line>
-      <![CDATA[something happened is not displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on find owners]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner]]>
-    </line>
-    <line>
-      <![CDATA[entered first name]]>
-    </line>
-    <line>
-      <![CDATA[entered last name]]>
-    </line>
-    <line>
-      <![CDATA[entered address]]>
-    </line>
-    <line>
-      <![CDATA[entered city]]>
-    </line>
-    <line>
-      <![CDATA[entered telephone number]]>
-    </line>
-    <line>
-      <![CDATA[clicked on add owner submit button]]>
-    </line>
-    <line>
-      <![CDATA[owner is added successfully]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on veterinarians link]]>
-    </line>
-    <line>
-      <![CDATA[Vets is displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on home page link]]>
-    </line>
-    <line>
-      <![CDATA[welcome is not displayed in homepage]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on error page link]]>
-    </line>
-    <line>
-      <![CDATA[something happened is not displayed]]>
-    </line>
-    <line>
-      <![CDATA[**************************************************]]>
-    </line>
-    <line>
-      <![CDATA[clicked on veterinarians link]]>
-    </line>
-    <line>
-      <![CDATA[Names is displayed in veterenarians page]]>
+      <![CDATA[Names is not displayed]]>
     </line>
     <line>
       <![CDATA[**************************************************]]>
@@ -191,238 +20,16 @@
       <![CDATA[Browser is closed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="133912" started-at="2018-08-24T08:42:11Z" finished-at="2018-08-24T08:44:25Z">
+  <suite name="Default suite" duration-ms="26573" started-at="2018-08-24T09:30:57Z" finished-at="2018-08-24T09:31:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="133912" started-at="2018-08-24T08:42:11Z" finished-at="2018-08-24T08:44:25Z">
-      <class name="com.sampejavaappscripts.DisplayHomePage">
-        <test-method status="PASS" signature="testDisplayHomePage()[pri:0, instance:com.sampejavaappscripts.DisplayHomePage@2b98378d]" name="testDisplayHomePage" duration-ms="20299" started-at="2018-08-24T14:12:18Z" finished-at="2018-08-24T14:12:39Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on home page link]]>
-            </line>
-            <line>
-              <![CDATA[welcome is not displayed in homepage]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayHomePage -->
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage -->
-      <class name="com.sampejavaappscripts.DisplayHomePage2">
-        <test-method status="PASS" signature="testDisplayHomePage()[pri:0, instance:com.sampejavaappscripts.DisplayHomePage2@d8355a8]" name="testDisplayHomePage" duration-ms="20238" started-at="2018-08-24T14:13:43Z" finished-at="2018-08-24T14:14:04Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on home page link]]>
-            </line>
-            <line>
-              <![CDATA[welcome is not displayed in homepage]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayHomePage -->
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage2 -->
-      <class name="com.sampejavaappscripts.AddOwner2">
-        <test-method status="PASS" signature="testAddOwner()[pri:0, instance:com.sampejavaappscripts.AddOwner2@14acaea5]" name="testAddOwner" duration-ms="1271" started-at="2018-08-24T14:13:42Z" finished-at="2018-08-24T14:13:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on find owners]]>
-            </line>
-            <line>
-              <![CDATA[clicked on add owner]]>
-            </line>
-            <line>
-              <![CDATA[entered first name]]>
-            </line>
-            <line>
-              <![CDATA[entered last name]]>
-            </line>
-            <line>
-              <![CDATA[entered address]]>
-            </line>
-            <line>
-              <![CDATA[entered city]]>
-            </line>
-            <line>
-              <![CDATA[entered telephone number]]>
-            </line>
-            <line>
-              <![CDATA[clicked on add owner submit button]]>
-            </line>
-            <line>
-              <![CDATA[owner is added successfully]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddOwner -->
-      </class> <!-- com.sampejavaappscripts.AddOwner2 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage2">
-        <test-method status="PASS" signature="testDisplayErrorPage()[pri:0, instance:com.sampejavaappscripts.DisplayErrorPage2@59fa1d9b]" name="testDisplayErrorPage" duration-ms="20308" started-at="2018-08-24T14:14:04Z" finished-at="2018-08-24T14:14:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on error page link]]>
-            </line>
-            <line>
-              <![CDATA[something happened is not displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayErrorPage -->
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage2 -->
-      <class name="com.sampejavaappscripts.AddOwner1">
-        <test-method status="PASS" signature="testAddOwner()[pri:0, instance:com.sampejavaappscripts.AddOwner1@1d057a39]" name="testAddOwner" duration-ms="1356" started-at="2018-08-24T14:13:00Z" finished-at="2018-08-24T14:13:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on find owners]]>
-            </line>
-            <line>
-              <![CDATA[clicked on add owner]]>
-            </line>
-            <line>
-              <![CDATA[entered first name]]>
-            </line>
-            <line>
-              <![CDATA[entered last name]]>
-            </line>
-            <line>
-              <![CDATA[entered address]]>
-            </line>
-            <line>
-              <![CDATA[entered city]]>
-            </line>
-            <line>
-              <![CDATA[entered telephone number]]>
-            </line>
-            <line>
-              <![CDATA[clicked on add owner submit button]]>
-            </line>
-            <line>
-              <![CDATA[owner is added successfully]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAddOwner -->
-      </class> <!-- com.sampejavaappscripts.AddOwner1 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage1">
-        <test-method status="PASS" signature="testDisplayErrorPage()[pri:0, instance:com.sampejavaappscripts.DisplayErrorPage1@224edc67]" name="testDisplayErrorPage" duration-ms="20438" started-at="2018-08-24T14:13:21Z" finished-at="2018-08-24T14:13:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on error page link]]>
-            </line>
-            <line>
-              <![CDATA[something happened is not displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayErrorPage -->
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage1 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage">
-        <test-method status="PASS" signature="testDisplayErrorPage()[pri:0, instance:com.sampejavaappscripts.DisplayErrorPage@475530b9]" name="testDisplayErrorPage" duration-ms="20844" started-at="2018-08-24T14:12:39Z" finished-at="2018-08-24T14:13:00Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on error page link]]>
-            </line>
-            <line>
-              <![CDATA[something happened is not displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayErrorPage -->
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage -->
+    <test name="Default test" duration-ms="26573" started-at="2018-08-24T09:30:57Z" finished-at="2018-08-24T09:31:24Z">
       <class name="com.sampejavaappscripts.VerifyNameInVeterenarians">
-        <test-method status="PASS" signature="testDisplayErrorPage()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@28d25987]" name="testDisplayErrorPage" duration-ms="317" started-at="2018-08-24T14:14:24Z" finished-at="2018-08-24T14:14:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on veterinarians link]]>
-            </line>
-            <line>
-              <![CDATA[Names is displayed in veterenarians page]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayErrorPage -->
-      </class> <!-- com.sampejavaappscripts.VerifyNameInVeterenarians -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians2">
-        <test-method status="PASS" signature="testDisplayVeterenarians()[pri:0, instance:com.sampejavaappscripts.DisplayVeterenarians2@46d56d67]" name="testDisplayVeterenarians" duration-ms="242" started-at="2018-08-24T14:13:43Z" finished-at="2018-08-24T14:13:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on veterinarians link]]>
-            </line>
-            <line>
-              <![CDATA[Vets is displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayVeterenarians -->
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians2 -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians1">
-        <test-method status="PASS" signature="testDisplayVeterenarians()[pri:0, instance:com.sampejavaappscripts.DisplayVeterenarians1@26be92ad]" name="testDisplayVeterenarians" duration-ms="257" started-at="2018-08-24T14:13:01Z" finished-at="2018-08-24T14:13:01Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on veterinarians link]]>
-            </line>
-            <line>
-              <![CDATA[Vets is displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayVeterenarians -->
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians1 -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians">
-        <test-method status="PASS" signature="testDisplayVeterenarians()[pri:0, instance:com.sampejavaappscripts.DisplayVeterenarians@4b9e13df]" name="testDisplayVeterenarians" duration-ms="263" started-at="2018-08-24T14:12:18Z" finished-at="2018-08-24T14:12:18Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on veterinarians link]]>
-            </line>
-            <line>
-              <![CDATA[Vets is displayed]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayVeterenarians -->
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians -->
-      <class name="com.sampejavaappscripts.DisplayHomePage1">
-        <test-method status="PASS" signature="testDisplayHomePage()[pri:0, instance:com.sampejavaappscripts.DisplayHomePage1@4c70fda8]" name="testDisplayHomePage" duration-ms="20227" started-at="2018-08-24T14:13:01Z" finished-at="2018-08-24T14:13:21Z">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on home page link]]>
-            </line>
-            <line>
-              <![CDATA[welcome is not displayed in homepage]]>
-            </line>
-            <line>
-              <![CDATA[**************************************************]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testDisplayHomePage -->
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage1 -->
-      <class name="com.sampejavaappscripts.AddOwner">
-        <test-method status="PASS" signature="openExcel()[pri:0, instance:com.sampejavaappscripts.AddOwner@cb5822]" name="openExcel" is-config="true" duration-ms="128" started-at="2018-08-24T14:12:11Z" finished-at="2018-08-24T14:12:12Z">
+        <test-method status="PASS" signature="openExcel()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@4cc0edeb]" name="openExcel" is-config="true" duration-ms="125" started-at="2018-08-24T15:00:57Z" finished-at="2018-08-24T15:00:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openExcel -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.sampejavaappscripts.AddOwner@cb5822]" name="preCondition" is-config="true" duration-ms="5136" started-at="2018-08-24T14:12:12Z" finished-at="2018-08-24T14:12:17Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@4cc0edeb]" name="preCondition" is-config="true" duration-ms="4949" started-at="2018-08-24T15:00:57Z" finished-at="2018-08-24T15:01:02Z">
           <reporter-output>
             <line>
               <![CDATA[Chrome Browser is opened]]>
@@ -432,52 +39,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testAddOwner()[pri:0, instance:com.sampejavaappscripts.AddOwner@cb5822]" name="testAddOwner" duration-ms="1417" started-at="2018-08-24T14:12:17Z" finished-at="2018-08-24T14:12:18Z">
+        <test-method status="PASS" signature="testDisplayErrorPage()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@4cc0edeb]" name="testDisplayErrorPage" duration-ms="20324" started-at="2018-08-24T15:01:02Z" finished-at="2018-08-24T15:01:23Z">
           <reporter-output>
             <line>
-              <![CDATA[clicked on find owners]]>
+              <![CDATA[clicked on veterinarians link]]>
             </line>
             <line>
-              <![CDATA[clicked on add owner]]>
-            </line>
-            <line>
-              <![CDATA[entered first name]]>
-            </line>
-            <line>
-              <![CDATA[entered last name]]>
-            </line>
-            <line>
-              <![CDATA[entered address]]>
-            </line>
-            <line>
-              <![CDATA[entered city]]>
-            </line>
-            <line>
-              <![CDATA[entered telephone number]]>
-            </line>
-            <line>
-              <![CDATA[clicked on add owner submit button]]>
-            </line>
-            <line>
-              <![CDATA[owner is added successfully]]>
+              <![CDATA[Names is not displayed]]>
             </line>
             <line>
               <![CDATA[**************************************************]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testAddOwner -->
-        <test-method status="PASS" signature="closeExcel()[pri:0, instance:com.sampejavaappscripts.AddOwner@cb5822]" name="closeExcel" is-config="true" duration-ms="46" started-at="2018-08-24T14:14:24Z" finished-at="2018-08-24T14:14:24Z">
+        </test-method> <!-- testDisplayErrorPage -->
+        <test-method status="PASS" signature="closeExcel()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@4cc0edeb]" name="closeExcel" is-config="true" duration-ms="62" started-at="2018-08-24T15:01:23Z" finished-at="2018-08-24T15:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExcel -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.sampejavaappscripts.AddOwner@cb5822]" name="postCondition" is-config="true" duration-ms="1065" started-at="2018-08-24T14:14:24Z" finished-at="2018-08-24T14:14:25Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.sampejavaappscripts.VerifyNameInVeterenarians@4cc0edeb]" name="postCondition" is-config="true" duration-ms="1079" started-at="2018-08-24T15:01:23Z" finished-at="2018-08-24T15:01:24Z">
           <reporter-output>
             <line>
               <![CDATA[Browser is closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- com.sampejavaappscripts.AddOwner -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.sampejavaappscripts.VerifyNameInVeterenarians -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
