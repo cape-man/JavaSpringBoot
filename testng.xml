@@ -15,6 +15,7 @@
 		<class name="com.sampejavaappscripts.DisplayVeterenarians2"/>
 		<class name="com.sampejavaappscripts.DisplayHomePage2"/>
 		<class name="com.sampejavaappscripts.DisplayErrorPage2"/>
+		<class name="com.sampejavaappscripts.VerifyNameInVeterenarians"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

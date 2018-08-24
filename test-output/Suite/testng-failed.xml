@@ -12,60 +12,6 @@
           <include name="postCondition"/>
         </methods>
       </class> <!-- com.sampejavaappscripts.AddOwner1 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage">
-        <methods>
-          <include name="openExcel"/>
-          <include name="testDisplayErrorPage"/>
-          <include name="closeExcel"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians">
-        <methods>
-          <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="testDisplayVeterenarians"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians -->
-      <class name="com.sampejavaappscripts.DisplayHomePage1">
-        <methods>
-          <include name="openExcel"/>
-          <include name="testDisplayHomePage"/>
-          <include name="closeExcel"/>
-          <include name="postCondition"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage1 -->
-      <class name="com.sampejavaappscripts.DisplayHomePage2">
-        <methods>
-          <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="testDisplayHomePage"/>
-          <include name="postCondition"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage2 -->
-      <class name="com.sampejavaappscripts.AddOwner">
-        <methods>
-          <include name="testAddOwner"/>
-          <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.AddOwner -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians2">
-        <methods>
-          <include name="openExcel"/>
-          <include name="testDisplayVeterenarians"/>
-          <include name="closeExcel"/>
-          <include name="postCondition"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians2 -->
       <class name="com.sampejavaappscripts.AddOwner2">
         <methods>
           <include name="openExcel"/>
@@ -75,42 +21,15 @@
           <include name="postCondition"/>
         </methods>
       </class> <!-- com.sampejavaappscripts.AddOwner2 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage2">
+      <class name="com.sampejavaappscripts.AddOwner">
         <methods>
+          <include name="testAddOwner"/>
           <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="testDisplayErrorPage"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage2 -->
-      <class name="com.sampejavaappscripts.DisplayVeterenarians1">
-        <methods>
-          <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="testDisplayVeterenarians"/>
-          <include name="postCondition"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayVeterenarians1 -->
-      <class name="com.sampejavaappscripts.DisplayErrorPage1">
-        <methods>
-          <include name="openExcel"/>
-          <include name="closeExcel"/>
-          <include name="testDisplayErrorPage"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayErrorPage1 -->
-      <class name="com.sampejavaappscripts.DisplayHomePage">
-        <methods>
-          <include name="openExcel"/>
-          <include name="testDisplayHomePage"/>
           <include name="closeExcel"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
         </methods>
-      </class> <!-- com.sampejavaappscripts.DisplayHomePage -->
+      </class> <!-- com.sampejavaappscripts.AddOwner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
