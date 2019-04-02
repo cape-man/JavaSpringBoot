@@ -80,8 +80,8 @@ public void preCondition()
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	
-	//String url=Generic.getConfigData("URL");
-	String url = System.getProperty("URL");
+	String url=Generic.getConfigData("URL");
+	//String url = System.getProperty("URL");
 	driver.get(url);
 	System.out.println("url is opened");
 	Reporter.log("url is opened");
