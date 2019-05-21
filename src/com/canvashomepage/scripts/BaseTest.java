@@ -56,6 +56,10 @@ public void preCondition()
 		//System.setProperty("webdriver.chrome.driver", "./exe/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 
+				options.addArguments("--headless");
+				options.addArguments("--no-sandbox");
+				options.addArguments("--disable-dev-shm-usage");
+				
 		Map<String, Object> prefs = new HashMap<String, Object>();
 		prefs.put("credentials_enable_service", false);
 		prefs.put("profile.password_manager_enabled", false);
