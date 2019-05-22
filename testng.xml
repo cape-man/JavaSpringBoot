@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <classes>
-		<class name="com.sampejavaappscripts.AddOwner"/>
-		<class name="com.sampejavaappscripts.DisplayVeterenarians"/>
-		<class name="com.sampejavaappscripts.DisplayHomePage"/>
-		<class name="com.sampejavaappscripts.DisplayErrorPage"/>
-		<class name="com.sampejavaappscripts.AddOwner1"/>
-		<class name="com.sampejavaappscripts.DisplayVeterenarians1"/>
-		<class name="com.sampejavaappscripts.DisplayHomePage1"/>
-		<class name="com.sampejavaappscripts.DisplayErrorPage1"/>
-		<class name="com.sampejavaappscripts.AddOwner2"/>
-		<class name="com.sampejavaappscripts.DisplayVeterenarians2"/>
-		<class name="com.sampejavaappscripts.DisplayHomePage2"/>
-		<class name="com.sampejavaappscripts.DisplayErrorPage2"/>
-		<class name="com.sampejavaappscripts.VerifyNameInVeterenarians"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<test name="Test">
+<classes>
+<class name="com.sampejavaappscripts.AddOwner"/>
+<class name="com.sampejavaappscripts.DisplayVeterenarians"/>
+<class name="com.sampejavaappscripts.DisplayHomePage"/>
+<class name="com.sampejavaappscripts.DisplayErrorPage"/>
+<class name="com.sampejavaappscripts.AddOwner1"/>
+<class name="com.sampejavaappscripts.DisplayVeterenarians1"/>
+<class name="com.sampejavaappscripts.DisplayHomePage1"/>
+<class name="com.sampejavaappscripts.DisplayErrorPage1"/>
+<class name="com.sampejavaappscripts.AddOwner2"/>
+<class name="com.sampejavaappscripts.DisplayVeterenarians2"/>
+<class name="com.sampejavaappscripts.DisplayHomePage2"/>
+<class name="com.sampejavaappscripts.DisplayErrorPage2"/>
+<class name="com.sampejavaappscripts.VerifyNameInVeterenarians"/>
+</classes>
+
+</test>
+
+</suite>
